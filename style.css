@@ -35,7 +35,7 @@ input[type=submit]:hover {
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 20px;
+  padding-left: 20px;
 }
 .header{
 min-height: 100vh;
@@ -495,12 +495,7 @@ font-weight: 500;
 font-size: 24;
 }
 
-.contact-col input, .contact-col textarea{
-width: 100%;
-padding: 15px;
-margin-bottom: 17px;
-outline: none;
-border: 1px solid #ccc;
+
 
 
 }
