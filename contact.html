@@ -1,0 +1,103 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="fontawesome/css/all.min.css">
+</head>
+<body>
+<section class="sub-header">
+<nav>
+<a href=""><img src="c2.jpg" width="100"></a>
+<div class="nav-links" id="navLinks">
+<i class="fa fa-times" onclick="hideMenu()"></i>
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="management.html">MANAGEMENT</a></li>
+
+<li><a href="about.html">ABOUT US</a></li>
+<li><a href="contact.html">CONTACT US</a></li>
+</ul> 
+</div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+
+<h1>Contact Us</h1>
+
+
+</section>
+
+<!-------contact content-------->
+<section class="location">
+<iframe></iframe>
+
+
+</section>
+<section class="contact-us">
+<div class="row">
+<div class="contact-col">
+<div>
+<i class="fa fa-home"></i>
+<span>
+<h5>kk 561 st,kigali Rwanda</h5>
+<p>Gikondo, Nyarugenge, RWANDA</p>
+</span>
+</div>
+<div>
+<i class="fa fa-phone"></i>
+<span>
+<h5>+250 781798884</h5>
+<p>Monday - Friday, 08:00AM - 05:30PM</p>
+</span>
+</div>
+<div>
+<i class="fa fa-envelope"></i>
+<span>
+<h5>excelsecurite<br>.yahoo.com</h5> 
+<p>Email us your query </p>
+</span>
+</div>
+</div>
+<div class="contact-col">
+<form action="form-handler.php" method="POST">
+<input type="text" name:"name" placeholder="Enter your name" required>
+<input type="text" name:"email" placeholder="Enter Email address" required>
+<input type="text" name:"subject" placeholder="Enter your subject" required>
+<textarea rows="8" name:"message" placeholder="Message" required></textarea>
+<button type="submit" class="red-btn" >Send Message</button>
+</form>
+</div>
+</div>
+</section>
+<!------footer----->
+<section class="footer">
+<h4>Excel Security Company</h4>
+<p>excelsecurite.yahoo.com<br>0781798884<br>kk 561 st,kigali Rwanda</p>
+<div class="icons">
+<i class="fab fa-facebook"></i>
+<i class="fab fa-whatsapp"></i>
+<i class="fab fa-twitter"></i>
+</div>
+<p>CopyRight by Excel Security Co 2022</p>
+</section>
+
+<script>
+
+var navLinks = document.getElementById("navLinks");
+function showMenu(){
+navLinks.style.right= "0";
+}
+function hideMenu(){
+navLinks.style.right= "-200px";
+}
+
+</script>
+
+
+
+</body>
+
+
+
+
+
+</html>
